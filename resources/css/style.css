@@ -1,1 +1,133 @@
-Hello World
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.container img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+#store {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.location {
+  opacity: 1;
+  padding-top: 15px;
+  background-color: black;
+  margin: 5px 20px 20px 20px;
+  flex-basis: 300px;
+}
+
+p {
+  display: block;
+  padding: 10px;
+}
+
+#contact {
+  height: 200px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
